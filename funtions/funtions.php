@@ -1,16 +1,16 @@
 <?php
 
     if(!defined("host")){
-        define('host', 'localhost');
+        define('host', 'eu-cdbr-west-02.cleardb.net');
     }
     if(!defined("username")){
-        define('username', 'root');
+        define('username', 'b14f2459b8a05f');
     }
     if(!defined("password")){
-        define('password', '');
+        define('password', '1322fda3');
     }
     if(!defined("database")){
-        define('database', 'eco_tabis');
+        define('database', 'heroku_d82f6321dfb171b');
     }
     $con = mysqli_connect(host,username,password,database);
     $con->set_charset("utf8");
