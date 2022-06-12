@@ -157,7 +157,7 @@
                     if($i<sizeof($result)){
                         echo '
                             <div class="col-sm-3" onclick="linkTo('.$result[$i]['MSHH'].');">
-                                <img src="admin_area/'.$result[$i]['Anh'].'" alt="Redmi Node 9S">
+                                <img src="admin/'.$result[$i]['Anh'].'" alt="Redmi Node 9S">
                                 <h3>'.$result[$i]['TenHH'].'</h3>
                                 <div class="price">
                                     <strong>'.number_format($result[$i]['Gia'], 0, ',', '.') . "đ".'</strong>
@@ -189,7 +189,7 @@
             for($col=0;$col<4;$col++){
                 echo '
                 <div class="col-sm-3" onclick="linkTo('.$result[$col]['MSHH'].');">
-                <img src="admin_area/'.$result[$col]['Anh'].'" alt="Redmi Node 9S">
+                <img src="admin/'.$result[$col]['Anh'].'" alt="Redmi Node 9S">
                 <h3>'.$result[$col]['TenHH'].'</h3>
                 <div class="price">
                     <strong>'.number_format($result[$col]['Gia'], 0, ',', '.') . "đ".'</strong>
@@ -222,7 +222,7 @@
             for($col=0;$col<4;$col++){
                 echo '
                 <div class="col-sm-3" onclick="linkTo('.$result[$col]['MSHH'].');">
-                <img src="admin_area/'.$result[$col]['Anh'].'" alt="Redmi Node 9S">
+                <img src="admin/'.$result[$col]['Anh'].'" alt="Redmi Node 9S">
                 <h3>'.$result[$col]['TenHH'].'</h3>
                 <div class="price">
                     <strong>'.number_format($result[$col]['Gia'], 0, ',', '.') . "đ".'</strong>
@@ -258,7 +258,7 @@
                         if($i<sizeof($result)){
                             echo '
                                 <div class="col-sm-3" onclick="linkTo('.$result[$i]['MSHH'].');">
-                                    <img src="admin_area/'.$result[$i]['Anh'].'" alt="Redmi Node 9S">
+                                    <img src="admin/'.$result[$i]['Anh'].'" alt="Redmi Node 9S">
                                     <h3>'.$result[$i]['TenHH'].'</h3>
                                     <div class="price">
                                         <strong>'.number_format($result[$i]['Gia'], 0, ',', '.') . "đ".'</strong>

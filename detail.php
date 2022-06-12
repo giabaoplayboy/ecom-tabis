@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="left-pro">
-                    <img src="admin_area/<?=$picture;?>" alt="Product focus" style="width: 100%;">
+                    <img src="admin/<?=$picture;?>" alt="Product focus" style="width: 100%;">
                 </div>
             </div>
             <div class="col-sm-8">

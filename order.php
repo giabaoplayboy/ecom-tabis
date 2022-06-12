@@ -190,7 +190,7 @@
                                                 echo '
                                                 <li class="product">
                                                     <div class="product__wrap">
-                                                        <img src="admin_area/'.$result['Anh'].'" alt="" class="product__img">
+                                                        <img src="admin/'.$result['Anh'].'" alt="" class="product__img">
                                                         <div class="product__inner">
                                                             <p class="product__name font-weight-bold">'.$result['TenHH'].'</p>
                                                             <p class="product__action">

@@ -81,7 +81,7 @@
                             <tr>
                                 <td>
                                     <div class="cart-info">
-                                        <img src="admin_area/'.$picture.'">
+                                        <img src="admin/'.$picture.'">
                                         <div class="name">
                                             <p>'.$name.'</p>
                                             <small>Giá: '.number_format($gia, 0, ',', '.') . "đ".'</small><br>
