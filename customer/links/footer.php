@@ -34,8 +34,8 @@
                 </div>
             </div>
             <br>
-            <h2> &copy; <?php echo date('Y'); ?> by <a href="https://www.facebook.com/thanh.ngotan.503/"> Ngo Tan Thanh </a> & 
-            <a href="https://www.facebook.com/tanloi.ho.79"> Ho Tan Loi </a> </h2>
+            <h2> &copy; <?php echo date('Y'); ?> by <a href="https://www.facebook.com/baobao13playboyf1.10/"> Bui Tran Gia Bao </a> & 
+            <a href="#"> Cu Huy Tien </a> </h2>
         </div>
         
     </footer>

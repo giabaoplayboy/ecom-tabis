@@ -26,6 +26,9 @@
                 if(isset($_POST['Email'])){
                     $email = $_POST['Email'];
                 }
+                if(isset($_POST['DiaChi'])){
+                    $diachi = $_POST['DiaChi'];
+                }
                 if(isset($_POST['gender'])){
                     $gen = $_POST['gender'];
                 }
@@ -37,7 +40,8 @@
                     phai='$gen',
                     ngaysinh='$birday',
                     SoDienThoai='$phone_num',
-                    Email='$email' WHERE username='$login_session'";
+                    Email='$email',
+                    DiaChi='$diachi' WHERE username='$login_session'";
         
                 // echo $sql;
                 execute($sql);

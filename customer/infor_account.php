@@ -25,6 +25,10 @@
 				<input type="text" name="Email" value="<?php echo $mail; ?>">
 			</div>
 			<div class="form-control">
+				<label class="input-a">Địa chỉ</label>
+				<input type="text" name="DiaChi" value="<?php echo $address; ?>">
+			</div>
+			<div class="form-control">
 				<label class="input-a">Giới tính</label>
 				<div class="gender">
 					<!-- <input type="text" name="gender" placeholder="Nam/nữ" class="input111" value="<?php echo $gender; ?>"> -->

@@ -309,7 +309,7 @@
                                     <span class="radio-fake"></span>
                                     <span class="rabel">
                                         <div class="order_form-pay">
-                                            <img class="method-icon" width="100" src="../Tabi's-1.0/images/vnpay.svg" alt="vnpay">
+                                            <img class="method-icon" width="100" src="./images/vnpay.svg" alt="vnpay">
                                             <div class="method-content">
                                                 <div class="method-content__name">
                                                     <span>Thanh toán bằng VNpay</span>
